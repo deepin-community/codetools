@@ -1,0 +1,248 @@
+codetools (0.2-18-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 04 Nov 2020 16:37:30 -0600
+
+codetools (0.2-17-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 20 Oct 2020 10:27:18 -0500
+
+codetools (0.2-16-2) unstable; urgency=medium
+
+  * Rebuilt for r-4.0 transition
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 15 May 2020 21:03:55 -0500
+
+codetools (0.2-16-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 25 Dec 2018 15:43:04 -0600
+
+codetools (0.2-15-2) unstable; urgency=medium
+
+  * Rebuilding for R 3.5.0 transition
+  
+  * debian/control: Set Build-Depends: to 'debhelper (>= 10)'
+
+  * debian/control: Switch to ${R:Depends} now that dh-r is fixed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 02 Jun 2018 09:41:13 -0500
+
+codetools (0.2-15-1.2) unstable; urgency=medium
+
+  * (Inofficial) Rebuild for R 3.5.0
+
+  * Manual override for ${R:Depends} while dh-r is looked at
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/compat: Increase level to 9
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Apr 2018 14:20:22 -0500
+
+codetools (0.2-15-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * That's my life: Helping out unfriendly maintainers and set at least
+    debian/source/format for them and fixing very basic bugs like
+    s/${shlibs:Depends}/${misc:Depends}/
+
+ -- Andreas Tille <tille@debian.org>  Fri, 29 Sep 2017 17:19:40 +0200
+
+codetools (0.2-15-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 14 Oct 2016 19:18:35 -0500
+
+codetools (0.2-14-2) unstable; urgency=medium
+
+  * debian/compat: Created
+ 
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 26 Jun 2016 07:42:49 -0500
+
+codetools (0.2-14-1) unstable; urgency=low
+
+  * New upstream release
+ 
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 15 Jul 2015 11:01:30 -0500
+
+codetools (0.2-11-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 13 Mar 2015 07:49:47 -0500
+
+codetools (0.2-10-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 17 Jan 2015 17:07:59 -0600
+
+codetools (0.2-9-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 21 Aug 2014 06:37:44 -0500
+
+codetools (0.2-8-2) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Change Depends to ${R:Depends}
+  
+  * (Re-)building with R 3.0.0 (beta)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 25 Mar 2013 21:13:06 -0500
+
+codetools (0.2-8-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 15 Feb 2011 07:18:15 -0600
+
+codetools (0.2-7-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 11 Jan 2011 15:34:06 -0600
+
+codetools (0.2-6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 05 Dec 2010 08:56:50 -0600
+
+codetools (0.2-5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 07 Nov 2010 17:20:04 -0600
+
+codetools (0.2-4-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 03 Nov 2010 11:57:52 -0500
+
+codetools (0.2-2-2) unstable; urgency=low
+
+  * Rebuilt for R 2.10.0 to work with new R-internal help file conversion
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  
+  * debian/control: Changed Section: to section 'gnu-r'
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 01 Nov 2009 09:48:30 -0600
+
+codetools (0.2-2-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Updated (Build-)Depends to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 08 Mar 2009 21:07:38 -0500
+
+codetools (0.2-1-2) unstable; urgency=low
+
+  * Really build against the new upstream release 0.2.1	(Closes: #494975)
+  
+  * debian/control: Updated Standards-Version: to current value
+  * debian/control: Updated (Build-)Depends to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 13 Aug 2008 10:18:55 -0500
+
+codetools (0.2-1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 15 Apr 2008 12:35:14 -0500
+
+codetools (0.2-0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 02 Apr 2008 20:59:00 -0500
+
+codetools (0.1-8.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Built with R 2.6.0, so setting (Build-)Depends: to 
+    'r-base-(core|dev) >> 2.5.1' to prevent move to testing before R 2.6.0
+
+  * Due to the versioning issue mentioned below, renaming 0.1-3 to 0.1-8.3
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 04 Oct 2007 16:43:30 -0500
+
+codetools (0.1-8.2-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * Due to the versioning issue mentioned below, renaming 0.1-2 to 0.1-8.2
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 14 Jun 2007 21:09:25 -0500
+
+codetools (0.1-8.1-1) unstable; urgency=low
+
+  * Rebuilt with slightly increased version number: Due to an erroneous
+    initial upload with version number 0.1-8 (from the sibbling package
+    rcompgen), subsequent uploads (with the two changelog entries below)
+    did not get into the Debian unstable archive.  This upload bumps the
+    upstream version number 0.1-1 to 0.1-8.1. This will be reset as soon
+    as the upstream release is larger than 0.1-8.  I prefer this over
+    adding an epoch "forever".				   (Closes: #421705)
+
+  * debian/control: Updated (Build-)Depends: to 'r-base-core (>= 2.5.0)'
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue,  1 May 2007 13:13:36 -0500
+
+codetools (0.1-1-2) unstable; urgency=low
+
+  * Rebuilt under newer R version with improved r-cran.mk script
+  * debian/control: Adjusted Build-Depends: to r-base-dev (>= 2.5.0~20070412-1)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 13 Apr 2007 16:18:45 -0500
+
+codetools (0.1-1-1) unstable; urgency=low
+
+  * Initial Debian packaging of new R 'recommended' package now 
+    bundled with the upstream sources of R 2.5.0
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun,  8 Apr 2007 07:21:57 -0500

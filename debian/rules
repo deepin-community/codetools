@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# 							-*- makefile -*-
+# debian/rules file for the Debian/GNU Linux r-cran-codetools package
+# Copyright 2004 - 2018 by Dirk Eddelbuettel <edd@debian.org>
+
+%:
+	dh $@ --buildsystem R
+
